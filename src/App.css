@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  max-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main_topsect{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.main_tablsect{
+  margin: 10px;
 }
