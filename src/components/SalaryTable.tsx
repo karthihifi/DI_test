@@ -75,7 +75,7 @@ const SalaryTable: React.FC = (props) => {
                 </TableCell>
                 <TableCell align="right">{row.Age}</TableCell>
                 <TableCell align="right">{row.YearsExperience}</TableCell>
-                <TableCell align="right">{row.Salary}</TableCell>
+                <TableCell align="right">{row.Salary.toLocaleString()}</TableCell>
                 {/* <TableCell align="right">{row.protein}</TableCell> */}
               </TableRow>
             ))}

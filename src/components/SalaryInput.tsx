@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
-
+import Paper from '@mui/material/Paper';
 import "./main.css";
 
 interface Salary {
@@ -23,24 +23,25 @@ const InputForm: React.FC<Salary> = (props) => {
         noValidate
         autoComplete="off"
       >
+        <Paper elevation={3} />
         <div>
           <TextField sx={{ width: '40ch' }} InputLabelProps={{
             shrink: true,
           }} helperText="Please Enter Name" required label="Name" id="standard-basic" variant="standard" />
         </div>
         <div>
-          <TextField sx={{ width: '20ch' }} 
-          type="number"
-          InputLabelProps={{
-            shrink: true,
-          }} helperText="Please Enter Age" required label="Age" id="standard-basic" variant="standard" />
+          <TextField sx={{ width: '20ch' }}
+            type="number"
+            InputLabelProps={{
+              shrink: true,
+            }} helperText="Please Enter Age" required label="Age" id="standard-basic" variant="standard" />
         </div>
         <div>
-          <TextField sx={{ width: '20ch' }} 
-          type="number"
-          InputLabelProps={{
-            shrink: true,
-          }} helperText="Please Enter Experience" required label="Experience" id="standard-basic" variant="standard" />
+          <TextField sx={{ width: '20ch' }}
+            type="number"
+            InputLabelProps={{
+              shrink: true,
+            }} helperText="Please Enter Experience" required label="Experience" id="standard-basic" variant="standard" />
         </div>
 
         <Button
@@ -53,6 +54,7 @@ const InputForm: React.FC<Salary> = (props) => {
         >
           Submit
         </Button>
+        <Paper />
       </Box>
 
       {/* <Form>
