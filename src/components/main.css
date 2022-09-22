@@ -1,0 +1,10 @@
+.salary_inp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.salary_pred_txt{
+    text-align: left;
+}
