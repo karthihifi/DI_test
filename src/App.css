@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   max-height: 100vh;
+  overflow: hidden;
+  margin: 20px 0;
 }
 
 .App-logo {
@@ -40,11 +42,18 @@
 
 .main_topsect{
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  gap:10px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin: 10px;
 }
 
 .main_tablsect{
   margin: 10px;
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow: scroll;
 }

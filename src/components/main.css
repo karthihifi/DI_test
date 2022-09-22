@@ -3,8 +3,19 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
+    flex-direction: column;
 }
 
-.salary_pred_txt{
+.salary_pred_card{
+    display: flex;
+    width: 100%;
+}
+
+.salary_pred_card-text{
+    width: 100%;
+    text-align: left;
+}
+
+h2{
     text-align: left;
 }

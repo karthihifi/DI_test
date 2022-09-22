@@ -91,27 +91,28 @@ function App() {
   };
   return (
     <div className="App">
-      <Navbar bg="dark" variant="dark">
+      {/* <Navbar bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#home">Salary Proposal Tool</Navbar.Brand>
         </Container>
-      </Navbar>
+      </Navbar> */}
       <Container>
         <Row>
           <Col className="main_topsect">
-            <SalaryPredCard></SalaryPredCard>
             <InputForm ProposeSalary={ProposeSalary}></InputForm>
-          </Col>
-          {/* <Col>
             <SalaryPredCard></SalaryPredCard>
-          </Col> */}
-        </Row>
-        <Row>
+          </Col>
           <Col className="main_tablsect">
             <h3>Model Data Used for Sampling</h3>
             <SalaryTable></SalaryTable>
           </Col>
         </Row>
+        {/* <Row>
+          <Col className="main_tablsect">
+            <h3>Model Data Used for Sampling</h3>
+            <SalaryTable></SalaryTable>
+          </Col>
+        </Row> */}
       </Container>
     </div>
   );
